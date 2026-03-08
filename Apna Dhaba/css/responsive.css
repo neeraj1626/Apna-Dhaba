@@ -1,0 +1,32 @@
+@media(max-width:900px) {
+
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}
+
+@media(max-width:600px) {
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

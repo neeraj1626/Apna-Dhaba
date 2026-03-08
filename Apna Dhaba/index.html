@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apna Dhaba – Authentic North Indian Cuisine · Narhe, Pune</title>
+  <meta name="description" content="Apna Dhaba, Narhe Pune – Highway-style North Indian & Mughlai cuisine. Rich flavours, fresh spices, warm hospitality."/>
+
+  <!-- Fonts: Cormorant Garamond (editorial luxury) + DM Sans (refined body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:wght@300;400;500;600&family=Rozha+One&display=swap" rel="stylesheet"/>
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════
+     PRELOADER
+══════════════════════════════════════════════════════ -->
+<div id="preloader">
+  <div class="preloader-inner">
+    <div id="lottie-flame" class="lottie-flame-wrap"></div>
+    <div class="preloader-brand">
+      <span class="pre-name">Apna Dhaba</span>
+      <span class="pre-tagline">Navghar · Maharashtra</span>
+    </div>
+    <div class="pre-loader-bar"><div class="pre-bar-fill"></div></div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════════════════ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#" class="brand">
+      <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=60&h=60&fit=crop&auto=format" alt="Apna Dhaba" class="brand-img"/>
+      <div class="brand-text">
+        <span class="brand-name">Apna Dhaba</span>
+        <span class="brand-loc">Navghar, Maharashtra</span>
+      </div>
+    </a>
+
+    <ul class="nav-menu" id="navMenu">
+
+<li><a href="#about">About</a></li>
+<li><a href="#dishes">Dishes</a></li>
+<!-- <li><a href="#menu-cats">Menu</a></li> -->
+<li><a href="#gallery">Gallery</a></li>
+<!-- <li><a href="#reviews">Reviews</a></li> -->
+<li><a href="#visit">Visit</a></li>
+
+<!-- <li>
+<a href="tel:+919876543210" class="nav-call">
+Reserve a Table
+</a>
+</li> -->
+
+</ul>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════════ -->
+<section class="hero" id="hero">
+  <!-- Real food photography via Unsplash -->
+  <div class="hero-media">
+    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1800&auto=format&q=85" alt="Authentic Indian Cuisine" class="hero-bg-img" id="heroBg"/>
+    <div class="hero-vignette"></div>
+    <div class="hero-grain"></div>
+  </div>
+
+  <!-- Floating dish images - real food photography -->
+  <div class="hero-floaters">
+    <div class="floater f1">
+      <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=300&auto=format&q=80" alt="Butter Chicken"/>
+      <div class="steam-wrap"><svg class="steam-svg" viewBox="0 0 60 80"><use href="#steam-path"/></svg></div>
+    </div>
+    <div class="floater f2">
+      <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=280&auto=format&q=80" alt="Dal Makhani"/>
+      <div class="steam-wrap"><svg class="steam-svg" viewBox="0 0 60 80"><use href="#steam-path"/></svg></div>
+    </div>
+    <div class="floater f3">
+      <img src="https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=260&auto=format&q=80" alt="Tandoori"/>
+      <div class="steam-wrap"><svg class="steam-svg steam-small" viewBox="0 0 60 80"><use href="#steam-path"/></svg></div>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span class="eyebrow-dot"></span>
+      <span>Est. in Navghar, Maharashtra</span>
+      <span class="eyebrow-line"></span>
+    </div>
+    <h1 class="hero-title">
+      <em>Asli</em> Dhaba<br/>
+      <span>Ka Swaad</span>
+    </h1>
+    <p class="hero-desc">Highway-style North Indian &amp; Mughlai cuisine — <br/>cooked with tradition, served with love.</p>
+    <div class="hero-actions">
+      <a href="#dishes" class="cta-primary">
+        <span>Explore Menu</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="https://maps.app.goo.gl/azEndqzyrVtjf1wc7" target="_blank" class="cta-ghost">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        Get Directions
+      </a>
+    </div>
+    <div class="hero-proof">
+      <div class="proof-avatars">
+        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=40&h=40&fit=crop&auto=format" alt="customer"/>
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=40&h=40&fit=crop&auto=format" alt="customer"/>
+        <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=40&h=40&fit=crop&auto=format" alt="customer"/>
+        <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=40&h=40&fit=crop&auto=format" alt="customer"/>
+      </div>
+      <div class="proof-text">
+        <div class="proof-stars">★★★★★</div>
+        <span>500+ happy guests daily</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll hint -->
+  <div class="hero-scroll">
+    <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- SVG defs for steam reuse -->
+<svg style="display:none">
+  <defs>
+    <path id="steam-path" d="M30 70 Q20 55 30 40 Q40 25 30 10 Q35 20 28 32 Q22 44 30 56 Q38 44 32 32 Q25 20 30 10 Q36 25 26 40 Q16 55 30 70Z" fill="rgba(255,255,255,0.4)"/>
+  </defs>
+</svg>
+
+<!-- ══════════════════════════════════════════════════════
+     MARQUEE STRIP
+══════════════════════════════════════════════════════ -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span>Butter Chicken</span><span class="mx">✦</span>
+    <span>Dal Makhani</span><span class="mx">✦</span>
+    <span>Chicken Tandoori</span><span class="mx">✦</span>
+    <span>Paneer Butter Masala</span><span class="mx">✦</span>
+    <span>Tandoori Roti</span><span class="mx">✦</span>
+    <span>Mutton Curry</span><span class="mx">✦</span>
+    <span>Kadhai Chicken</span><span class="mx">✦</span>
+    <span>Lassi</span><span class="mx">✦</span>
+    <!-- duplicate for seamless loop -->
+    <span>Butter Chicken</span><span class="mx">✦</span>
+    <span>Dal Makhani</span><span class="mx">✦</span>
+    <span>Chicken Tandoori</span><span class="mx">✦</span>
+    <span>Paneer Butter Masala</span><span class="mx">✦</span>
+    <span>Tandoori Roti</span><span class="mx">✦</span>
+    <span>Mutton Curry</span><span class="mx">✦</span>
+    <span>Kadhai Chicken</span><span class="mx">✦</span>
+    <span>Lassi</span><span class="mx">✦</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     ABOUT / USP
+══════════════════════════════════════════════════════ -->
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="about-layout">
+
+      <!-- Left: editorial image stack -->
+      <div class="about-visuals" data-aos="fade-right">
+        <div class="av-primary">
+          <img src="https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=600&auto=format&q=85" alt="Dhaba kitchen" loading="lazy"/>
+          <div class="av-tag">Est. Narhe, Pune</div>
+        </div>
+        <div class="av-secondary">
+          <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=300&auto=format&q=80" alt="Fresh spices" loading="lazy"/>
+        </div>
+        <div class="av-stat-pill">
+          <span class="pill-num">25+</span>
+          <span class="pill-txt">Dishes crafted daily</span>
+        </div>
+      </div>
+
+      <!-- Right: text -->
+      <div class="about-text" data-aos="fade-left" data-aos-delay="150">
+        <span class="section-eyebrow">Our Story</span>
+        <h2 class="section-h2">A Highway<br/><em>Dhaba Heart</em><br/>in Navghar</h2>
+        <p class="about-para">Apna Dhaba was born from a simple belief — that the most honest and soulful food comes from the traditional highway dhabas of Punjab. We brought that spirit to Navghar, Maharashtra, adding a warm and welcoming touch that makes every guest feel at home.
+
+Every pot simmers slowly on the flame, every roti is freshly rolled on the tawa, and every dish carries the flavors of tradition. At Apna Dhaba, we don’t just serve food — we serve the timeless taste of authentic Indian dhaba cuisine.
+</p>
+        <p class="about-para">Every pot simmers on slow fire. Every roti rolls fresh from the tawa. Every dish tells a story of generations.</p>
+
+        <div class="usp-pills">
+          <div class="usp-pill">
+            <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=60&h=60&fit=crop&auto=format" alt="Fresh"/>
+            <div>
+              <strong>Fresh Daily</strong>
+              <span>Ingredients sourced every morning</span>
+            </div>
+          </div>
+          <div class="usp-pill">
+            <img src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=60&h=60&fit=crop&auto=format" alt="Traditional"/>
+            <div>
+              <strong>Traditional Recipes</strong>
+              <span>Authentic Punjabi cooking methods</span>
+            </div>
+          </div>
+          <div class="usp-pill">
+            <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=60&h=60&fit=crop&auto=format" alt="Affordable"/>
+            <div>
+              <strong>Value for Money</strong>
+              <span>Big portions, honest prices</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     SIGNATURE DISHES
+══════════════════════════════════════════════════════ -->
+<section class="dishes-section" id="dishes">
+  <!-- Spice texture background -->
+  <div class="dishes-bg">
+    <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=1400&auto=format&q=40" alt="" aria-hidden="true" class="dishes-bg-img"/>
+    <div class="dishes-bg-overlay"></div>
+  </div>
+
+  <div class="container">
+    <div class="section-head centered" data-aos="fade-up">
+      <span class="section-eyebrow light">Fan Favourites</span>
+      <h2 class="section-h2 white">Our Signature<br/><em>Dishes</em></h2>
+    </div>
+
+    <div class="dishes-grid">
+
+      <!-- Card 1: Butter Chicken -->
+      <div class="dish-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="dish-img-wrap">
+          <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&auto=format&fit=crop&q=80" alt="Butter Chicken" loading="lazy"/>
+          <!-- Steam animation -->
+          <div class="steam-container">
+            <div class="steam s1"></div>
+            <div class="steam s2"></div>
+            <div class="steam s3"></div>
+          </div>
+          <div class="dish-badge">Non-Veg</div>
+        </div>
+        <div class="dish-body">
+          <h3>Butter Chicken</h3>
+          <p>Tender chicken in velvety tomato-cream gravy, kissed by the tandoor.</p>
+          <div class="dish-footer">
+            <span class="dish-tag">Rich · Creamy</span>
+            <span class="dish-heat">🌶🌶</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Dal Makhani -->
+      <div class="dish-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="dish-img-wrap">
+          <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&auto=format&fit=crop&q=80" alt="Dal Makhani" loading="lazy"/>
+          <div class="steam-container">
+            <div class="steam s1"></div>
+            <div class="steam s2"></div>
+            <div class="steam s3"></div>
+          </div>
+          <div class="dish-badge veg">Pure Veg</div>
+        </div>
+        <div class="dish-body">
+          <h3>Dal Makhani</h3>
+          <p>Slow-cooked black lentils simmered overnight in butter and cream.</p>
+          <div class="dish-footer">
+            <span class="dish-tag">Earthy · Buttery</span>
+            <span class="dish-heat">🌶</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Tandoori Chicken – FEATURED LARGE -->
+      <div class="dish-card dish-featured" data-aos="fade-up" data-aos-delay="40">
+        <div class="dish-img-wrap">
+          <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&auto=format&fit=crop&q=80" alt="Chicken Tandoori" loading="lazy"/>
+          <div class="steam-container">
+            <div class="steam s1"></div>
+            <div class="steam s2"></div>
+            <div class="steam s3"></div>
+            <div class="steam s4"></div>
+          </div>
+          <div class="dish-badge">Non-Veg</div>
+          <div class="dish-featured-tag">Chef's Special</div>
+        </div>
+        <div class="dish-body">
+          <h3>Chicken Tandoori</h3>
+          <p>Marinated in yogurt & spices, charred to perfection in our clay tandoor. A timeless classic.</p>
+          <div class="dish-footer">
+            <span class="dish-tag">Smoky · Chargrilled</span>
+            <span class="dish-heat">🌶🌶🌶</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4: Paneer Butter Masala -->
+      <div class="dish-card" data-aos="fade-up" data-aos-delay="120">
+        <div class="dish-img-wrap">
+          <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&auto=format&fit=crop&q=80" alt="Paneer Butter Masala" loading="lazy"/>
+          <div class="steam-container">
+            <div class="steam s1"></div>
+            <div class="steam s2"></div>
+            <div class="steam s3"></div>
+          </div>
+          <div class="dish-badge veg">Pure Veg</div>
+        </div>
+        <div class="dish-body">
+          <h3>Paneer Butter Masala</h3>
+          <p>Soft cottage cheese cubes in aromatic, velvety saffron gravy.</p>
+          <div class="dish-footer">
+            <span class="dish-tag">Aromatic · Velvety</span>
+            <span class="dish-heat">🌶🌶</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5: Tandoori Roti -->
+      <div class="dish-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="dish-img-wrap">
+          <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&auto=format&fit=crop&q=80" alt="Tandoori Roti" loading="lazy"/>
+          <div class="steam-container">
+            <div class="steam s1"></div>
+            <div class="steam s2"></div>
+          </div>
+          <div class="dish-badge veg">Pure Veg</div>
+        </div>
+        <div class="dish-body">
+          <h3>Tandoori Roti</h3>
+          <p>Whole wheat bread, puffed fresh from the clay tandoor every few minutes.</p>
+          <div class="dish-footer">
+            <span class="dish-tag">Fluffy · Hot</span>
+            <span class="dish-heat">🌾</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6: Fish Fry -->
+      <div class="dish-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="dish-img-wrap">
+            <img src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=800&auto=format&fit=crop&q=80" alt="Tandoori Roti" loading="lazy"/>
+          <div class="steam-container">
+            <div class="steam s1"></div>
+            <div class="steam s2"></div>
+          </div>
+          <div class="dish-badge">Non-Veg</div>
+        </div>
+        <div class="dish-body">
+          <h3>Fish Fry</h3>
+          <p>Fresh fish marinated in aromatic spices and shallow-fried until golden and crispy.</p>
+          <div class="dish-footer">
+            <span class="dish-tag">Smoky · Spicy</span>
+            <span class="dish-heat">🌶🌶</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="dishes-cta" data-aos="fade-up">
+      <a href="menu.html" class="cta-primary light">
+        <span>Explore Full Menu</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     MENU CATEGORIES
+══════════════════════════════════════════════════════ -->
+<!-- <div class="cat-row">
+
+  <div class="cat-item">
+    <a href="images/Menu1.jpg" target="_blank">
+      <div class="cat-img-box">
+        <img src="images/Menu1.jpg" alt="Menu Page 1" loading="lazy">
+      </div>
+    </a>
+  </div>
+
+  <div class="cat-item">
+    <a href="images/Menu2.jpg" target="_blank">
+      <div class="cat-img-box">
+        <img src="images/Menu2.jpg" alt="Menu Page 2" loading="lazy">
+      </div>
+    </a>
+  </div>
+
+  <div class="cat-item">
+    <a href="images/Menu3.jpg" target="_blank">
+      <div class="cat-img-box">
+        <img src="images/Menu3.jpg" alt="Menu Page 3" loading="lazy">
+      </div>
+    </a>
+  </div>
+
+</div> -->
+
+<!-- ══════════════════════════════════════════════════════
+     GALLERY
+══════════════════════════════════════════════════════ -->
+<section class="gallery-section" id="gallery">
+  <div class="container">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-eyebrow">Through the Lens</span>
+      <h2 class="section-h2">Gallery</h2>
+    </div>
+  </div>
+
+  <div class="gallery-masonry" data-aos="fade-up" data-aos-delay="100">
+    <div class="gm-item gm-tall" onclick="openLightbox(0)">
+      <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&auto=format&q=85" alt="Food" loading="lazy"/>
+      <div class="gm-hover"><span>Food Photography</span></div>
+    </div>
+    <div class="gm-item" onclick="openLightbox(1)">
+      <img src="https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=500&auto=format&q=80" alt="Kitchen" loading="lazy"/>
+      <div class="gm-hover"><span>Kitchen Activity</span></div>
+    </div>
+    <div class="gm-item" onclick="openLightbox(2)">
+      <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&auto=format&q=80" alt="Dal" loading="lazy"/>
+      <div class="gm-hover"><span>Dal Makhani</span></div>
+    </div>
+    <div class="gm-item gm-wide" onclick="openLightbox(3)">
+      <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&auto=format&q=80" alt="Spices" loading="lazy"/>
+      <div class="gm-hover"><span>Fresh Spices</span></div>
+    </div>
+    <div class="gm-item" onclick="openLightbox(4)">
+      <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=500&auto=format&q=80" alt="Chicken" loading="lazy"/>
+      <div class="gm-hover"><span>Butter Chicken</span></div>
+    </div>
+    <div class="gm-item" onclick="openLightbox(5)">
+      <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=500&auto=format&q=80" alt="Paneer" loading="lazy"/>
+      <div class="gm-hover"><span>Paneer Masala</span></div>
+    </div>
+    <div class="gm-item gm-tall" onclick="openLightbox(6)">
+      <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600&auto=format&q=85" alt="Tandoori" loading="lazy"/>
+      <div class="gm-hover"><span>Tandoori Platter</span></div>
+    </div>
+    <div class="gm-item" onclick="openLightbox(7)">
+      <img src="https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=500&auto=format&q=80" alt="Roti" loading="lazy"/>
+      <div class="gm-hover"><span>Fresh Rotis</span></div>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" onclick="closeLightbox()">✕</button>
+    <button class="lb-arrow lb-prev" onclick="lbPrev()">‹</button>
+    <div class="lb-img-wrap" id="lbImgWrap"></div>
+    <button class="lb-arrow lb-next" onclick="lbNext()">›</button>
+    <div class="lb-caption" id="lbCaption"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     VISIT US
+══════════════════════════════════════════════════════ -->
+<section class="visit-section" id="visit">
+
+<div class="container">
+
+<div class="visit-layout">
+
+<div class="visit-info" data-aos="fade-right">
+
+<span class="section-eyebrow">Find Us</span>
+
+<h2 class="section-h2">Come Visit <em>Apna Dhaba</em></h2>
+
+
+<div class="visit-cards">
+
+<div class="visit-card">
+
+<div class="vc-icon">
+<svg viewBox="0 0 24 24" fill="currentColor">
+<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+</svg>
+</div>
+
+<div>
+<strong>Address</strong>
+<p>Apna Dhaba<br>Naigaon East, Navghar<br>Maharashtra, India</p>
+</div>
+
+</div>
+
+
+<div class="visit-card">
+
+<div class="vc-icon">
+<svg viewBox="0 0 24 24" fill="currentColor">
+<path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/>
+</svg>
+</div>
+
+<div>
+<strong>Hours</strong>
+<p>Mon – Sun:  5:00 PM – 6:00 AM</p>
+</div>
+
+</div>
+
+
+<div class="visit-card">
+
+<div class="vc-icon">
+<svg viewBox="0 0 24 24" fill="currentColor">
+<path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+</svg>
+</div>
+
+<div>
+<strong>Phone</strong>
+<p>+91 89755 55573</p>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="visit-actions">
+
+<a href="https://maps.app.goo.gl/azEndqzyrVtjf1wc7" target="_blank" class="cta-primary">
+Get Directions
+</a>
+
+<a href="tel:+918975555573" class="cta-outline">
+Call Now
+</a>
+
+</div>
+
+</div>
+
+
+<div class="visit-map-wrap" data-aos="fade-left" data-aos-delay="150">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482081.8468752066!2d72.59943055625001!3d19.270863654923968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7af86828b2119%3A0x7ad8a148934bff5b!2sApna%20Dhaba!5e0!3m2!1sen!2sin!4v1772973644855!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ══════════════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#" class="brand footer-logo-brand">
+            <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=50&h=50&fit=crop&auto=format" alt="Apna Dhaba"/>
+            <div class="brand-text">
+              <span class="brand-name">Apna Dhaba</span>
+              <span class="brand-loc">Navghar, Maharashtra</span>
+            </div>
+          </a>
+          <p>Serving authentic highway-style North Indian & Mughlai cuisine with love and tradition since day one.</p>
+          <div class="footer-socials">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="https://wa.me/918975555573" target="_blank" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <!-- <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+            </a> -->
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#dishes">Signature Dishes</a></li>
+            <!-- <li><a href="">Full Menu</a></li> -->
+            <li><a href="#gallery">Gallery</a></li>
+            <!-- <li><a href="#reviews">Reviews</a></li> -->
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Address</h5>
+          <ul>
+            <p>Apna Dhaba
+Naigaon East, Navghar
+Maharashtra 421302, India</p>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul class="footer-contact-list">
+            <li>+91 8975555573</li>
+            <li>Mon–Sun: 5:00PM–6:00AM</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2026 Apna Dhaba · All Rights Reserved · Made with ❤️ in Navghar</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="btt" id="btt" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
